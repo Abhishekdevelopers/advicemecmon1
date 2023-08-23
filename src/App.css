@@ -1,0 +1,155 @@
+.abhi1 {
+  max-width: 600px;
+  }
+  .abhi1 h1{
+    font-weight: 700;
+    font-size: 45px;
+  }
+  .abhi1 p{
+    margin-top: 20px;
+    font-weight: 700;
+  }
+  .abhi{
+    text-align: left;
+    padding: 10px 10px;
+  }
+  button{
+    background-color: blue; 
+    border-radius: 30px solid blue !important; 
+    font-size: 13px;
+     padding: 10px 45px;
+     color: white;
+  }
+  
+  /* .abhi{
+    background-image: url("logo.jpg");
+    background-repeat: no-repeat;
+  } */
+  
+  .container{
+    max-width: 1200px;
+    background-image: url("Bgdice.jpg");
+    background-size: cover;
+    height: 100vh; 
+    width: 100%; 
+  }
+  
+  .bttn .login {
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 50px 0 0 50px;
+    color: #1631bf;
+    font-weight: 700;
+    height: 65px;
+    padding: 19px 59px 37px 30px;
+    position: fixed;
+    right: 0;
+    top: 24px;
+    width: 303px;
+  }
+  
+  .signupm {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 50px 0 0 50px;
+    color: #1631bf;
+    font-weight: 700;
+    height: 65px;
+    padding: 13px 59px 37px 30px;
+    position: fixed;
+    right: 0;
+    top: 104px;
+    width: 303px;
+  }
+  .login a:link{
+    text-decoration: none;
+    color: #1631bf;
+  }
+  .signupm a:link{
+    text-decoration: none;
+    color: #1631bf;
+  }
+  .griid {
+    margin-top: -70px;
+  }
+  .griid img {
+    height: auto;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .let-bttn{
+    margin-top: 30px;
+    border-color: blue;
+    border-radius: 45px;
+  }
+  
+  .ice{
+    float: right;
+  }
+  .foot{
+    margin-top: 30px;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .abhi1 h1 {
+      font-size: 40px;
+     }
+    .abhi1 p {
+      max-width: 456px;
+     }
+    .griid img {
+      margin-top: 6rem;
+      width: 60%;
+      display: block;
+      margin-left: 2rem;
+    }
+  }
+
+@media screen and (max-width: 767px){
+  .bttn .login {
+    font-weight: 500;
+    padding: 14px 48px 32px 30px;
+    width: 280px;
+}
+.signupm {
+  font-weight: 500;
+  padding: 14px 48px 32px 30px;
+  width: 280px;
+}
+.abhi1 h1 {
+  font-size: 21px;
+}
+.abhi1 p {
+  max-width: 388px;
+}
+}
+
+@media screen and (max-width: 479px){
+  .bttn .login {
+    font-weight: 500;
+    padding: 14px 0px 0px 23px;
+    width: 230px;
+    height: 54px;
+}
+.signupm {
+  font-weight: 500;
+    padding: 14px 0px 0px 23px;
+    width: 230px;
+    height: 54px;
+}
+.abhi1 h1 {
+  font-size: 20px;
+  max-width: 244px;
+}
+.abhi1 p {
+  max-width: 230px;
+}
+.griid img {
+  width: 50%;
+  margin-left: 0rem;
+}
+}
